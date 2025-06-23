@@ -1,0 +1,48 @@
+#employees {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#employees td{
+  border: 1px solid rgb(9, 81, 187);
+  color: black;
+  padding: 8px;
+}
+
+#employees th {
+  border: 1px solid rgb(9, 81, 187);
+  color: black;
+  padding: 8px;
+  background-color:#00DB00;
+}
+
+#title {
+  color: black
+}
+
+#colHeader td{
+  color:black
+}
+
+#employees tr:nth-child(even){background-color: #FFFFFF;} 
+
+#employees tr:hover {background-color:#c5f1c5;}
+
+#employees th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #00DB00;
+}
+
+thead,
+tbody {
+display: block;
+}
+
+tbody {
+height: 500px;
+overflow: auto;
+}
