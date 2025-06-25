@@ -145,7 +145,7 @@ class DatabaseDemo extends Component {
                     <tbody>
                         <tr>
                             <th>ID</th>
-                            <th>员工名字---</th>
+                            <th>员工名字ttt</th>
                             <th>部门ID</th>
                             <th>部门名称</th>
                             <th>邮件地址</th>
